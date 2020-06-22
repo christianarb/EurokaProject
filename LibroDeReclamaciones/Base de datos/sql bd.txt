@@ -1,0 +1,171 @@
+USE [ABCDatabase]
+GO
+/****** Object:  User [app_user]    Script Date: 22/06/2020 17:10:23 ******/
+CREATE USER [app_user] FOR LOGIN [app_user] WITH DEFAULT_SCHEMA=[dbo]
+GO
+ALTER ROLE [db_owner] ADD MEMBER [app_user]
+GO
+/****** Object:  Table [dbo].[__EFMigrationsHistory]    Script Date: 22/06/2020 17:10:23 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[__EFMigrationsHistory](
+	[MigrationId] [nvarchar](150) NOT NULL,
+	[ProductVersion] [nvarchar](32) NOT NULL,
+ CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY CLUSTERED 
+(
+	[MigrationId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Afp]    Script Date: 22/06/2020 17:10:24 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Afp](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Nombre] [nvarchar](64) NOT NULL,
+ CONSTRAINT [PK_Afp] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Cargo]    Script Date: 22/06/2020 17:10:24 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Cargo](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Nombre] [nvarchar](64) NOT NULL,
+ CONSTRAINT [PK_Cargo] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Empleado]    Script Date: 22/06/2020 17:10:24 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Empleado](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Nombres] [nvarchar](64) NOT NULL,
+	[ApellidoPaterno] [nvarchar](64) NOT NULL,
+	[ApellidoMaterno] [nvarchar](64) NOT NULL,
+	[FechaNacimiento] [datetime2](7) NOT NULL,
+	[FechaIngreso] [datetime2](7) NOT NULL,
+	[IdAfp] [int] NOT NULL,
+	[IdCargo] [int] NOT NULL,
+	[Sueldo] [decimal](6, 2) NOT NULL,
+ CONSTRAINT [PK_Empleado] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+INSERT [dbo].[__EFMigrationsHistory] ([MigrationId], [ProductVersion]) VALUES (N'20200622190117_InitialCatalog', N'3.1.5')
+GO
+INSERT [dbo].[__EFMigrationsHistory] ([MigrationId], [ProductVersion]) VALUES (N'20200622204212_updateSueldo', N'3.1.5')
+GO
+SET IDENTITY_INSERT [dbo].[Afp] ON 
+GO
+INSERT [dbo].[Afp] ([Id], [Nombre]) VALUES (1, N'AFP 1')
+GO
+INSERT [dbo].[Afp] ([Id], [Nombre]) VALUES (2, N'AFP 2')
+GO
+SET IDENTITY_INSERT [dbo].[Afp] OFF
+GO
+SET IDENTITY_INSERT [dbo].[Cargo] ON 
+GO
+INSERT [dbo].[Cargo] ([Id], [Nombre]) VALUES (1, N'CARGO 01')
+GO
+INSERT [dbo].[Cargo] ([Id], [Nombre]) VALUES (2, N'CARGO 02')
+GO
+SET IDENTITY_INSERT [dbo].[Cargo] OFF
+GO
+SET IDENTITY_INSERT [dbo].[Empleado] ON 
+GO
+INSERT [dbo].[Empleado] ([Id], [Nombres], [ApellidoPaterno], [ApellidoMaterno], [FechaNacimiento], [FechaIngreso], [IdAfp], [IdCargo], [Sueldo]) VALUES (1, N'CHRISTIAN', N'RUIZ', N'BAUTISTA', CAST(N'1984-03-10T00:00:00.0000000' AS DateTime2), CAST(N'2020-06-20T00:00:00.0000000' AS DateTime2), 1, 1, CAST(5500.00 AS Decimal(6, 2)))
+GO
+SET IDENTITY_INSERT [dbo].[Empleado] OFF
+GO
+ALTER TABLE [dbo].[Empleado] ADD  DEFAULT ((0.0)) FOR [Sueldo]
+GO
+ALTER TABLE [dbo].[Empleado]  WITH CHECK ADD  CONSTRAINT [FK_Empleado_Afp_IdAfp] FOREIGN KEY([IdAfp])
+REFERENCES [dbo].[Afp] ([Id])
+GO
+ALTER TABLE [dbo].[Empleado] CHECK CONSTRAINT [FK_Empleado_Afp_IdAfp]
+GO
+ALTER TABLE [dbo].[Empleado]  WITH CHECK ADD  CONSTRAINT [FK_Empleado_Cargo_IdCargo] FOREIGN KEY([IdCargo])
+REFERENCES [dbo].[Cargo] ([Id])
+GO
+ALTER TABLE [dbo].[Empleado] CHECK CONSTRAINT [FK_Empleado_Cargo_IdCargo]
+GO
+/****** Object:  StoredProcedure [dbo].[Empleados_Listar]    Script Date: 22/06/2020 17:10:24 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[Empleados_Listar]
+as
+SELECT   
+		emp.Id, 
+		emp.Nombres, 
+		emp.ApellidoPaterno, 
+		emp.ApellidoMaterno, 
+		emp.FechaNacimiento, 
+		emp.FechaIngreso, 
+		emp.IdAfp, 
+		afp.Nombre as AFp,
+		emp.IdCargo, 
+		cargo.Nombre AS Cargo,
+		emp.Sueldo
+FROM    dbo.Afp AS afp INNER JOIN
+        dbo.Empleado AS emp ON afp.Id = emp.IdAfp INNER JOIN
+        dbo.Cargo AS cargo ON emp.IdCargo = cargo.Id
+
+
+GO
+/****** Object:  StoredProcedure [dbo].[Empleados_Seleccionar]    Script Date: 22/06/2020 17:10:24 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [dbo].[Empleados_Seleccionar] --Empleados_Seleccionar 1
+@id int
+as
+SELECT   
+		emp.Id, 
+		emp.Nombres, 
+		emp.ApellidoPaterno, 
+		emp.ApellidoMaterno, 
+		emp.FechaNacimiento, 
+		emp.FechaIngreso, 
+		emp.IdAfp, 
+		afp.Nombre as AFp,
+		emp.IdCargo, 
+		cargo.Nombre AS Cargo,
+		emp.Sueldo 
+FROM    dbo.Afp AS afp INNER JOIN
+        dbo.Empleado AS emp ON afp.Id = emp.IdAfp INNER JOIN
+        dbo.Cargo AS cargo ON emp.IdCargo = cargo.Id
+WHERE emp.Id = @id
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'Nombre de la afp' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'Afp', @level2type=N'COLUMN',@level2name=N'Nombre'
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'Nombre del cargo' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'Cargo', @level2type=N'COLUMN',@level2name=N'Nombre'
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'Nombre de la persona' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'Empleado', @level2type=N'COLUMN',@level2name=N'Nombres'
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'Apellido paterno de la persona' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'Empleado', @level2type=N'COLUMN',@level2name=N'ApellidoPaterno'
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'Apellido materno de la persona' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'Empleado', @level2type=N'COLUMN',@level2name=N'ApellidoMaterno'
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'Apellido materno de la persona' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'Empleado', @level2type=N'COLUMN',@level2name=N'Sueldo'
+GO
