@@ -1,0 +1,11 @@
+C:\Documentos\Postulaciones\Eureka\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Crosscutting\bin\Debug\netcoreapp3.1\Netcore.Infrastructure.Crosscutting.deps.json
+C:\Documentos\Postulaciones\Eureka\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Crosscutting\bin\Debug\netcoreapp3.1\Netcore.Infrastructure.Crosscutting.dll
+C:\Documentos\Postulaciones\Eureka\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Crosscutting\bin\Debug\netcoreapp3.1\Netcore.Infrastructure.Crosscutting.pdb
+C:\Documentos\Postulaciones\Eureka\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Crosscutting\obj\Debug\netcoreapp3.1\Netcore.Infrastructure.Crosscutting.AssemblyInfoInputs.cache
+C:\Documentos\Postulaciones\Eureka\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Crosscutting\obj\Debug\netcoreapp3.1\Netcore.Infrastructure.Crosscutting.AssemblyInfo.cs
+C:\Documentos\Postulaciones\Eureka\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Crosscutting\obj\Debug\netcoreapp3.1\Netcore.Infrastructure.Crosscutting.csproj.CoreCompileInputs.cache
+C:\Documentos\Postulaciones\Eureka\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Crosscutting\obj\Debug\netcoreapp3.1\Netcore.Infrastructure.Crosscutting.dll
+C:\Documentos\Postulaciones\Eureka\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Crosscutting\obj\Debug\netcoreapp3.1\Netcore.Infrastructure.Crosscutting.pdb
+C:\Documentos\Postulaciones\Eureka\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Crosscutting\obj\Debug\netcoreapp3.1\Netcore.Infrastructure.Crosscutting.Resources.Messages.resources
+C:\Documentos\Postulaciones\Eureka\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Crosscutting\obj\Debug\netcoreapp3.1\Netcore.Infrastructure.Crosscutting.csproj.GenerateResource.cache
+C:\Documentos\Postulaciones\Eureka\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Crosscutting\obj\Debug\netcoreapp3.1\Netcore.Infrastructure.Crosscutting.csprojAssemblyReference.cache

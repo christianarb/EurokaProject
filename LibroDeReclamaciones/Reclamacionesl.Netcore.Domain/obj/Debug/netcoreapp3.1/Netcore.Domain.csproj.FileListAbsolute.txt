@@ -1,0 +1,9 @@
+C:\Documentos\Postulaciones\Eureka\LibroDeReclamaciones\Reclamacionesl.Netcore.Domain\bin\Debug\netcoreapp3.1\Netcore.Domain.deps.json
+C:\Documentos\Postulaciones\Eureka\LibroDeReclamaciones\Reclamacionesl.Netcore.Domain\bin\Debug\netcoreapp3.1\Netcore.Domain.dll
+C:\Documentos\Postulaciones\Eureka\LibroDeReclamaciones\Reclamacionesl.Netcore.Domain\bin\Debug\netcoreapp3.1\Netcore.Domain.pdb
+C:\Documentos\Postulaciones\Eureka\LibroDeReclamaciones\Reclamacionesl.Netcore.Domain\obj\Debug\netcoreapp3.1\Netcore.Domain.AssemblyInfoInputs.cache
+C:\Documentos\Postulaciones\Eureka\LibroDeReclamaciones\Reclamacionesl.Netcore.Domain\obj\Debug\netcoreapp3.1\Netcore.Domain.AssemblyInfo.cs
+C:\Documentos\Postulaciones\Eureka\LibroDeReclamaciones\Reclamacionesl.Netcore.Domain\obj\Debug\netcoreapp3.1\Netcore.Domain.csproj.CoreCompileInputs.cache
+C:\Documentos\Postulaciones\Eureka\LibroDeReclamaciones\Reclamacionesl.Netcore.Domain\obj\Debug\netcoreapp3.1\Netcore.Domain.dll
+C:\Documentos\Postulaciones\Eureka\LibroDeReclamaciones\Reclamacionesl.Netcore.Domain\obj\Debug\netcoreapp3.1\Netcore.Domain.pdb
+C:\Documentos\Postulaciones\Eureka\LibroDeReclamaciones\Reclamacionesl.Netcore.Domain\obj\Debug\netcoreapp3.1\Netcore.Domain.csprojAssemblyReference.cache

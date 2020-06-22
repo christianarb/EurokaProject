@@ -1,0 +1,15 @@
+C:\Documentos\Proyectos2\Yanbal\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Data\bin\Debug\netcoreapp3.1\Reclamaciones.Netcore.Infrastructure.Data.deps.json
+C:\Documentos\Proyectos2\Yanbal\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Data\bin\Debug\netcoreapp3.1\Reclamaciones.Netcore.Infrastructure.Data.dll
+C:\Documentos\Proyectos2\Yanbal\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Data\bin\Debug\netcoreapp3.1\Reclamaciones.Netcore.Infrastructure.Data.pdb
+C:\Documentos\Proyectos2\Yanbal\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Data\obj\Debug\netcoreapp3.1\Reclamaciones.Netcore.Infrastructure.Data.csprojAssemblyReference.cache
+C:\Documentos\Proyectos2\Yanbal\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Data\obj\Debug\netcoreapp3.1\Reclamaciones.Netcore.Infrastructure.Data.AssemblyInfoInputs.cache
+C:\Documentos\Proyectos2\Yanbal\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Data\obj\Debug\netcoreapp3.1\Reclamaciones.Netcore.Infrastructure.Data.AssemblyInfo.cs
+C:\Documentos\Proyectos2\Yanbal\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Data\obj\Debug\netcoreapp3.1\Reclamaciones.Netcore.Infrastructure.Data.csproj.CopyComplete
+C:\Documentos\Proyectos2\Yanbal\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Data\obj\Debug\netcoreapp3.1\Reclamaciones.Netcore.Infrastructure.Data.dll
+C:\Documentos\Proyectos2\Yanbal\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Data\obj\Debug\netcoreapp3.1\Reclamaciones.Netcore.Infrastructure.Data.pdb
+C:\Documentos\Proyectos2\Yanbal\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Data\bin\Debug\netcoreapp3.1\Reclamaciones.Netcore.Infrastructure.Data.runtimeconfig.json
+C:\Documentos\Proyectos2\Yanbal\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Data\bin\Debug\netcoreapp3.1\Reclamaciones.Netcore.Infrastructure.Data.runtimeconfig.dev.json
+C:\Documentos\Proyectos2\Yanbal\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Data\obj\Debug\netcoreapp3.1\Reclamaciones.Netcore.Infrastructure.Data.genruntimeconfig.cache
+C:\Documentos\Proyectos2\Yanbal\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Data\obj\Debug\netcoreapp3.1\Reclamaciones.Netcore.Infrastructure.Data.csproj.CoreCompileInputs.cache
+C:\Documentos\Proyectos2\Yanbal\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Data\bin\Debug\netcoreapp3.1\Reclamaciones.Netcore.Domain.dll
+C:\Documentos\Proyectos2\Yanbal\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Data\bin\Debug\netcoreapp3.1\Reclamaciones.Netcore.Domain.pdb

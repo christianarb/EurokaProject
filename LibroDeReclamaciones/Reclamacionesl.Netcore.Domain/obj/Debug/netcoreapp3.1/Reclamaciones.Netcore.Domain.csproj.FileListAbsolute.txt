@@ -1,0 +1,9 @@
+C:\Documentos\Proyectos2\Yanbal\LibroDeReclamaciones\Reclamacionesl.Netcore.Domain\bin\Debug\netcoreapp3.1\Reclamaciones.Netcore.Domain.deps.json
+C:\Documentos\Proyectos2\Yanbal\LibroDeReclamaciones\Reclamacionesl.Netcore.Domain\bin\Debug\netcoreapp3.1\Reclamaciones.Netcore.Domain.dll
+C:\Documentos\Proyectos2\Yanbal\LibroDeReclamaciones\Reclamacionesl.Netcore.Domain\bin\Debug\netcoreapp3.1\Reclamaciones.Netcore.Domain.pdb
+C:\Documentos\Proyectos2\Yanbal\LibroDeReclamaciones\Reclamacionesl.Netcore.Domain\obj\Debug\netcoreapp3.1\Reclamaciones.Netcore.Domain.AssemblyInfoInputs.cache
+C:\Documentos\Proyectos2\Yanbal\LibroDeReclamaciones\Reclamacionesl.Netcore.Domain\obj\Debug\netcoreapp3.1\Reclamaciones.Netcore.Domain.AssemblyInfo.cs
+C:\Documentos\Proyectos2\Yanbal\LibroDeReclamaciones\Reclamacionesl.Netcore.Domain\obj\Debug\netcoreapp3.1\Reclamaciones.Netcore.Domain.csproj.CoreCompileInputs.cache
+C:\Documentos\Proyectos2\Yanbal\LibroDeReclamaciones\Reclamacionesl.Netcore.Domain\obj\Debug\netcoreapp3.1\Reclamaciones.Netcore.Domain.dll
+C:\Documentos\Proyectos2\Yanbal\LibroDeReclamaciones\Reclamacionesl.Netcore.Domain\obj\Debug\netcoreapp3.1\Reclamaciones.Netcore.Domain.pdb
+C:\Documentos\Proyectos2\Yanbal\LibroDeReclamaciones\Reclamacionesl.Netcore.Domain\obj\Debug\netcoreapp3.1\Reclamaciones.Netcore.Domain.csprojAssemblyReference.cache

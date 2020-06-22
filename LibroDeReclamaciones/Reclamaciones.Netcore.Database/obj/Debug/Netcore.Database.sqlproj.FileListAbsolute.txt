@@ -1,0 +1,5 @@
+C:\Documentos\Postulaciones\Eureka\LibroDeReclamaciones\Reclamaciones.Netcore.Database\bin\Debug\Netcore.Database.dacpac
+C:\Documentos\Postulaciones\Eureka\LibroDeReclamaciones\Reclamaciones.Netcore.Database\bin\Debug\Reclamaciones.Netcore.Database.dll
+C:\Documentos\Postulaciones\Eureka\LibroDeReclamaciones\Reclamaciones.Netcore.Database\bin\Debug\Reclamaciones.Netcore.Database.pdb
+C:\Documentos\Postulaciones\Eureka\LibroDeReclamaciones\Reclamaciones.Netcore.Database\obj\Debug\Reclamaciones.Netcore.Database.dll
+C:\Documentos\Postulaciones\Eureka\LibroDeReclamaciones\Reclamaciones.Netcore.Database\obj\Debug\Reclamaciones.Netcore.Database.pdb

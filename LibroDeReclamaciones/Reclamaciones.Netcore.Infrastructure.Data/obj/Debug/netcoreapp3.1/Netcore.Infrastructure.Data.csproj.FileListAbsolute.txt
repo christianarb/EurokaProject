@@ -1,0 +1,15 @@
+C:\Documentos\Postulaciones\Eureka\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Data\bin\Debug\netcoreapp3.1\Netcore.Infrastructure.Data.deps.json
+C:\Documentos\Postulaciones\Eureka\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Data\bin\Debug\netcoreapp3.1\Netcore.Infrastructure.Data.runtimeconfig.json
+C:\Documentos\Postulaciones\Eureka\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Data\bin\Debug\netcoreapp3.1\Netcore.Infrastructure.Data.runtimeconfig.dev.json
+C:\Documentos\Postulaciones\Eureka\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Data\bin\Debug\netcoreapp3.1\Netcore.Infrastructure.Data.dll
+C:\Documentos\Postulaciones\Eureka\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Data\bin\Debug\netcoreapp3.1\Netcore.Infrastructure.Data.pdb
+C:\Documentos\Postulaciones\Eureka\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Data\bin\Debug\netcoreapp3.1\Netcore.Domain.dll
+C:\Documentos\Postulaciones\Eureka\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Data\bin\Debug\netcoreapp3.1\Netcore.Domain.pdb
+C:\Documentos\Postulaciones\Eureka\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Data\obj\Debug\netcoreapp3.1\Netcore.Infrastructure.Data.csprojAssemblyReference.cache
+C:\Documentos\Postulaciones\Eureka\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Data\obj\Debug\netcoreapp3.1\Netcore.Infrastructure.Data.AssemblyInfoInputs.cache
+C:\Documentos\Postulaciones\Eureka\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Data\obj\Debug\netcoreapp3.1\Netcore.Infrastructure.Data.AssemblyInfo.cs
+C:\Documentos\Postulaciones\Eureka\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Data\obj\Debug\netcoreapp3.1\Netcore.Infrastructure.Data.csproj.CoreCompileInputs.cache
+C:\Documentos\Postulaciones\Eureka\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Data\obj\Debug\netcoreapp3.1\Netcore.Infrastructure.Data.csproj.CopyComplete
+C:\Documentos\Postulaciones\Eureka\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Data\obj\Debug\netcoreapp3.1\Netcore.Infrastructure.Data.dll
+C:\Documentos\Postulaciones\Eureka\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Data\obj\Debug\netcoreapp3.1\Netcore.Infrastructure.Data.pdb
+C:\Documentos\Postulaciones\Eureka\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Data\obj\Debug\netcoreapp3.1\Netcore.Infrastructure.Data.genruntimeconfig.cache

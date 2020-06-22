@@ -1,0 +1,116 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+
+    // List<Netcore.Application.Dtos.EmpleadoDto> empleadosLista = ViewData["EmpleadosLista"] as List<Netcore.Application.Dtos.EmpleadoDto>;
+
+}
+
+
+<script>
+    $(window).on('load', function () {
+
+
+        $('.overlay').fadeOut();
+
+
+    });
+</script>
+
+
+
+@using (Html.BeginForm("Registrar", "Home", FormMethod.Post))
+{
+    <div class="jumbotron" style="background-color:white">
+        <div class="panel panel-primary">
+            <div class="panel-heading">FORMULARIO DE EMPLEADOS</div>
+            <div class="panel-body">
+                <div class="clearfix"></div>
+                <div class="btn bg-deep-orange btn-lg waves-effect col-md-12"
+                     data-toggle="collapse"
+                     data-target="#divCabeceraReclamo">
+                    DATOS GENERALES:
+                </div>
+                <div class="row clearfix collapse in" id="divCabeceraReclamo">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label class="control-label" for="Nombres">Nombres:</label>
+                            <input type="text" class="form-control" id="Nombres" name="Nombres">
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label class="control-label" for="ApellidoPaterno">Apellido Paterno:</label>
+                            <input type="text" class="form-control" id="ApellidoPaterno" name="ApellidoPaterno">
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label class="control-label" for="ApellidoMaterno">Apellido Materno:</label>
+                            <input type="text" class="form-control" id="ApellidoMaterno" name="ApellidoMaterno">
+                        </div>
+                    </div>
+
+                    <div class="clearfix"></div>
+
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label class="control-label" for="FechaNacimiento">Fecha Nacimiento:</label>
+                            <input type="text" class="form-control" id="FechaNacimiento" name="FechaNacimiento">
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label class="control-label" for="FechaIngreso">Fecha:</label>
+                            <input type="text" class="form-control" id="FechaIngreso" name="FechaIngreso">
+                        </div>
+                    </div>
+
+
+                    <div class="clearfix"></div>
+
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label class="control-label" for="Afp">A.F.P:</label>
+                            <select name="AFP" class="form-control" id="AFP">
+                                <option value="1"> AFP 01</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label class="control-label" for="Cargo">Cargo:</label>
+                            <select name="Cargo" class="form-control" id="Cargo">
+                                <option value="1"> Cargo 01</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label class="control-label" for="Cargo">Sueldo:</label>
+                            <input type="number" class="form-control" id="Sueldo" name="Sueldo">
+                        </div>
+                    </div>
+
+                    <div class="clearfix"></div>
+
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <input type="submit" class="btn bg-deep-orange btn-lg waves-effect" value="Registrar" />
+
+                            <input type="button" class="btn bg-deep-orange btn-lg waves-effect" value="Cancelar" />
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+}
+

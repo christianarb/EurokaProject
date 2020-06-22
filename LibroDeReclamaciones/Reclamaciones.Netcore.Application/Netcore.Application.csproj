@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Reclamaciones.Netcore.Infrastructure.Crosscutting\Netcore.Infrastructure.Crosscutting.csproj" />
+    <ProjectReference Include="..\Reclamaciones.Netcore.Infrastructure.Data\Netcore.Infrastructure.Data.csproj" />
+    <ProjectReference Include="..\Reclamacionesl.Netcore.Domain\Netcore.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

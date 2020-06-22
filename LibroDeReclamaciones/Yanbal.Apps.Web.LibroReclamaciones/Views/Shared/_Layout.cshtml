@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ABC</title>
+    <!-- Icons -->
+    <link rel="shortcut icon" type="image/x-icon" media="all" href="~/dist/images/icons/favicon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="~/dist/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="~/dist/css/loader.css">
+    <link rel="stylesheet" href="~/dist/css/main.css">
+    <link rel="stylesheet" href="~/css/wave.css">
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation/dist/additional-methods.js"></script>
+
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <!-- JS -->
+    <script src="~/dist/bootstrap/js/bootstrap.min.js"></script>
+
+
+
+</head>
+
+
+
+<body>
+
+    <!-- Section : Header -->
+    <nav class="main-header">
+        <div class="topbarFijo">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="row">
+                    <div class="header-logo">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CONTENT
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 text-center">
+                <div class="tituloNp">
+
+                </div>
+            </div>
+        </div>
+    </div>- START -->
+
+    <div class="container">
+        <div class="row">
+            @RenderBody()
+        </div>
+    </div>
+    <!-- CONTENT - END -->
+    <!-- LOADING -->
+    <div class="overlay">
+        <div>
+            <div class="item-inner">
+                <div class="la-square-loader la-2x">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    @RenderSection("Scripts", required: false)
+
+  
+</body>
+
+
+
+

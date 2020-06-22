@@ -1,0 +1,92 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+
+    List<Netcore.Application.Dtos.EmpleadoDto> empleadosLista = ViewData["EmpleadosLista"] as List<Netcore.Application.Dtos.EmpleadoDto>;
+
+}
+
+
+<script>
+    $(window).on('load', function () {
+
+
+        $('.overlay').fadeOut();
+
+
+    });
+</script>
+
+
+<div class="jumbotron" style="background-color:white">
+    <div class="panel panel-primary">
+        <div class="panel-heading">LISTADO DE EMPLEADOS</div>
+        <div class="panel-body">
+            <div class="clearfix"></div>
+            <div class="btn bg-deep-orange btn-lg waves-effect col-md-12"
+                 data-toggle="collapse"
+                 data-target="#divCabeceraReclamo">
+                DATOS GENERALES:
+            </div>
+            <div class="row clearfix collapse in" id="divCabeceraReclamo">
+                <div class="col-md-12">
+                    <table class="table">
+                      
+                        <thead>
+                            <tr>
+                                <td></td>
+                                <td>Nombres</td>
+                                <td>Apellido paterno</td>
+                                <td>Apellido materno</td>
+                                <td>Fecha de nacimiento</td>
+                                <td>Fecha de ingreso</td>
+                                <td>Afp</td>
+                                <td>Cargo</td>
+                                <td>Sueldo</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+
+                            <tr>
+
+                                @foreach (var item in empleadosLista)
+                                {
+                                <tr>
+                                    <td><a asp-action="Edit" asp-route-id="@item.Id">Edit</a></td>
+                                    <td>
+                                        @item.Nombres
+                                    </td>
+                                    <td>
+                                        @item.ApellidoMaterno
+                                    </td>
+                                    <td>
+                                        @item.ApellidoMaterno
+                                    </td>
+                                    <td>
+                                        @item.FechaNacimiento.ToShortDateString()
+                                    </td>
+                                    <td>
+                                        @item.FechaIngreso.ToShortDateString()
+                                    </td>
+                                    <td>
+                                        @item.Afp
+                                    </td>
+                                    <td>
+                                        @item.Cargo
+                                    </td>
+                                    <td>
+                                        @item.Sueldo
+                                    </td>
+                                </tr>
+                            }
+
+                                </tr>
+                            </tbody>
+                        </table>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+

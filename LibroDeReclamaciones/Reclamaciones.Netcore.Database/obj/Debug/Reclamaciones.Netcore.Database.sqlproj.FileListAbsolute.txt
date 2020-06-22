@@ -1,0 +1,9 @@
+C:\Documentos\Proyectos2\Yanbal\LibroDeReclamaciones\Reclamaciones.Netcore.Database\bin\Debug\Reclamaciones.Netcore.Database.dacpac
+C:\Documentos\Proyectos2\Yanbal\LibroDeReclamaciones\Reclamaciones.Netcore.Database\bin\Debug\Reclamaciones.Netcore.Database.dll
+C:\Documentos\Proyectos2\Yanbal\LibroDeReclamaciones\Reclamaciones.Netcore.Database\bin\Debug\Reclamaciones.Netcore.Database.pdb
+C:\Documentos\Proyectos2\Yanbal\LibroDeReclamaciones\Reclamaciones.Netcore.Database\obj\Debug\Reclamaciones.Netcore.Database.dll
+C:\Documentos\Proyectos2\Yanbal\LibroDeReclamaciones\Reclamaciones.Netcore.Database\obj\Debug\Reclamaciones.Netcore.Database.pdb
+C:\Documentos\Proyectos2\Yanbal\LibroDeReclamaciones\Reclamaciones.Netcore.Database\obj\Debug\Model.xml
+C:\Documentos\Proyectos2\Yanbal\LibroDeReclamaciones\Reclamaciones.Netcore.Database\obj\Debug\refactor.xml
+C:\Documentos\Proyectos2\Yanbal\LibroDeReclamaciones\Reclamaciones.Netcore.Database\obj\Debug\postdeploy.sql
+C:\Documentos\Proyectos2\Yanbal\LibroDeReclamaciones\Reclamaciones.Netcore.Database\obj\Debug\predeploy.sql

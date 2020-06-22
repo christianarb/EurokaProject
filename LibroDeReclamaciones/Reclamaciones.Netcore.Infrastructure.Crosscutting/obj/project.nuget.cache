@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "tAtnvHd5DY/ePFjXVECN3UAKjQt3RI6olml2VVBaKouBmmkA7mDjtM+Hkpiwk+J3qy4TZvkMBspWSQjoL8nw3Q==",
+  "success": true,
+  "projectFilePath": "C:\\Documentos\\Postulaciones\\Eureka\\LibroDeReclamaciones\\Reclamaciones.Netcore.Infrastructure.Crosscutting\\Netcore.Infrastructure.Crosscutting.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\USER\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

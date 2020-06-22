@@ -1,0 +1,9 @@
+C:\Documentos\Proyectos2\Yanbal\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Crosscutting\bin\Debug\netcoreapp3.1\Reclamaciones.Netcore.Infrastructure.Crosscutting.deps.json
+C:\Documentos\Proyectos2\Yanbal\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Crosscutting\bin\Debug\netcoreapp3.1\Reclamaciones.Netcore.Infrastructure.Crosscutting.dll
+C:\Documentos\Proyectos2\Yanbal\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Crosscutting\bin\Debug\netcoreapp3.1\Reclamaciones.Netcore.Infrastructure.Crosscutting.pdb
+C:\Documentos\Proyectos2\Yanbal\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Crosscutting\obj\Debug\netcoreapp3.1\Reclamaciones.Netcore.Infrastructure.Crosscutting.AssemblyInfoInputs.cache
+C:\Documentos\Proyectos2\Yanbal\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Crosscutting\obj\Debug\netcoreapp3.1\Reclamaciones.Netcore.Infrastructure.Crosscutting.AssemblyInfo.cs
+C:\Documentos\Proyectos2\Yanbal\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Crosscutting\obj\Debug\netcoreapp3.1\Reclamaciones.Netcore.Infrastructure.Crosscutting.dll
+C:\Documentos\Proyectos2\Yanbal\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Crosscutting\obj\Debug\netcoreapp3.1\Reclamaciones.Netcore.Infrastructure.Crosscutting.pdb
+C:\Documentos\Proyectos2\Yanbal\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Crosscutting\obj\Debug\netcoreapp3.1\Reclamaciones.Netcore.Infrastructure.Crosscutting.csproj.CoreCompileInputs.cache
+C:\Documentos\Proyectos2\Yanbal\LibroDeReclamaciones\Reclamaciones.Netcore.Infrastructure.Crosscutting\obj\Debug\netcoreapp3.1\Reclamaciones.Netcore.Infrastructure.Crosscutting.csprojAssemblyReference.cache
